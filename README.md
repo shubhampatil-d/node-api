@@ -31,7 +31,7 @@ A robust and scalable **Job Portal REST API** built with **Node.js**, **Express*
 ---
 
 ## 📁 Folder Structure
-
+```
 job-portal-backend/
 ├── config/
 |
@@ -73,7 +73,7 @@ job-portal-backend/
 |
 └── README.md
 
-
+```
 ## 📦 API Endpoints
 
 ### 🔐 Authentication Routes (`/api/auth`)
