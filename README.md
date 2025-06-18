@@ -56,6 +56,33 @@ job-portal-backend/
 └── README.md
 
 ---
+job-portal-backend/
+├── config/
+│   └── db.js                  # MongoDB connection setup
+│
+├── controllers/
+│   ├── authController.js      # User registration and login logic
+│   └── jobController.js       # Job CRUD operations and application handling
+│
+├── middlewares/
+│   ├── auth.js                # JWT authentication middleware
+│   ├── role.js                # Role-based access control middleware
+│   └── errorHandler.js        # Centralized error handling middleware
+│
+├── models/
+│   ├── User.js                # User schema/model
+│   ├── Job.js                 # Job schema/model
+│   └── Application.js         # Job application schema/model
+│
+├── routes/
+│   ├── authRoutes.js          # Routes for login and registration
+│   └── jobRoutes.js           # Routes for job operations and applications
+│
+├── uploads/                   # Directory to store uploaded resumes
+│
+├── .env                       # Environment variables (port, DB URI, JWT secret)
+├── server.js                  # Application entry point
+└── README.md                  # Project documentation
 
 ## 📦 API Endpoints
 
