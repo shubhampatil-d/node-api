@@ -34,6 +34,7 @@ A robust and scalable **Job Portal REST API** built with **Node.js**, **Express*
 
 job-portal-backend/
 ├── config/
+
 │ └── db.js # MongoDB connection setup
 ├── controllers/
 │ ├── authController.js # Register/Login logic
